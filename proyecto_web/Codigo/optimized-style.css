@@ -1,0 +1,135 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #feeac9;
+    justify-content: center;
+}
+.flex-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 79.6vh;
+}
+.tarjeta{
+    background: #feeac9;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(122, 71, 42, 0.8);
+    max-width: 34.3rem;
+    width: 75%;
+    padding: 25px;
+}
+.tarjeta h2{
+    margin: 0 0 13px 0;
+    font-size: 2rem;
+    color: #36281d;
+    font-weight: bold;
+}
+.form_input{
+    margin: 13px 0;
+    font-size: 1.2rem;
+    color: #36281d;
+    font-weight: bold;
+}
+.form_input input{
+    min-width: 30%;
+    border: none;
+    border-bottom: 2px solid #7e4e34;
+    outline: none;
+    padding: 0.2rem auto;
+    font-size: 1rem;
+    background: transparent;
+}
+.form_input input:focus{
+    border-bottom: 2px solid #b17240;
+}
+.form_input input::placeholder{
+    color: #36281d;
+    font-size: 1.1rem;
+    font-weight: bold;
+    text-align: center;
+}
+.form_input input[type="text"]{
+    color: #36281d;
+    text-align: center;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+.form_input input[type="date"]{
+    color: #36281d;
+    text-align: center;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+.form_input input:focus::placeholder{
+    color: transparent;
+}
+.button_input button{
+    background: #7a472a;
+    color:#feeac9;
+    text-decoration: none;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    padding: 0.8rem 4rem;
+    margin-top: 10px;
+    font-size: 1.3rem;
+    transition: 0.8s;
+}
+.button_input button:hover{
+    background-color: #af6d3b;
+    cursor: pointer;
+}
+footer{
+    min-height: 20vh;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #7a472a;
+    justify-content: center;
+}
+.flex-container-footer{
+    display: flex;
+    justify-content: space-around;
+}
+.footerdiv{
+    margin: 0;
+    text-align: center;
+    width:30%;
+    color: #feeac9;
+    font-size: 1rem;
+    font-weight: bold;
+}
+a{
+    color:inherit;
+    text-decoration: none;
+    color: #feeac9;
+}
+a:hover{
+    text-decoration: underline;
+    color: white;
+}
+.social-icon{
+    width: 32px;
+    height: 32px;
+    margin-block-end: 0.5rem;
+}
+h5{
+    margin:0;
+}
+.social-icon:hover{
+    filter: invert(1);
+    transition: 0.8s;
+}
+.logo{
+    margin: 1.5rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20vw;
+    height: auto;
+    max-width: 400px;
+}

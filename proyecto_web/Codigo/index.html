@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIPSA</title>
+    <link rel="icon" href="../Imagenes/logo/logo4.png" type="image/png">
+    <link rel="stylesheet" href="optimized-style.css">
+</head>
+<body>
+    <img src="../Imagenes/logo/logo2.png" type="image/png" alt="SIPSA" class="logo">
+    <div class="flex-container">
+        <form id="form_index" class="tarjeta">
+            <h2>Consulta tu Posta Médica</h2>
+            <div class="form_input">
+                <label for="dni">DNI:</label>
+                <input id="dni" type="text" name="dni" maxlength="8" pattern="[0-9]{8}" required placeholder="Número de DNI" inputmode="numeric">
+            </div>
+            <div class="form_input">
+                <label for="cui">Dígito verificador de DNI (CUI):</label>
+                <input id="cui" type="text" name="cui" maxlength="1" pattern="[0-9]" inputmode="numeric" placeholder="Dígito verificador">
+            </div>
+            <div class="form_input">
+                <label for="fecha">Fecha de nacimiento:</label>
+                <input id="fecha" type="date" name="fecha" required>
+            </div>
+            <div class="button_input">
+                <button type="submit">Consultar</button>
+            </div>
+        </form>
+    </div>
+    <footer>
+        <div class="flex-container-footer">
+            <div class="footerdiv">
+                <h3>Oficina central SIS</h3>
+                <p>Av. P.º de la República 1645, Lima 15033</p>
+            </div>
+            <div class="footerdiv">
+                <h3>Preguntas frecuentes</h3>
+                <p><a href="https://www.gob.pe/13432-encontrar-digito-verificador-en-el-dni" target="_blank">¿Dónde encuentro el dígito verificador?</a></p>
+                <p><a href="https://dondemeatiendo.essalud.gob.pe/#/consulta" target="_blank">¿Dónde me atiendo EsSalud?</a></p>
+            </div>
+            <div class="footerdiv">
+                <h3>Canales de atención</h3>
+                    <div>
+                        <a href="https://wa.me/51945405104" target="_blank"><img src="../Imagenes/redes/whatsap.png" class="social-icon" alt="Whatsapp"></a>
+                        <a href="https://www.gob.pe/institucion/sis/informes-publicaciones/1969731-relacion-de-oficinas-sis-a-nivel-nacional" target="_blank"><img src="../Imagenes/redes/call.png" class="social-icon" alt="Central telefónica"></a>
+                    </div>
+                    <div>
+                        <h5>© 2026 SIPSA. Todos los derechos reservados.</h5>
+                    </div>
+            </div>
+        </div>
+    </footer>
+    <script src="director.js"></script>
+</body>
+</html>
+

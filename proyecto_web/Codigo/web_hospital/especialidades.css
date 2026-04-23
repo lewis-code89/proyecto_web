@@ -1,0 +1,74 @@
+body{
+    background-color: #feeac9;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body header{
+    background-color: #feeac9 !important;
+}
+.navbar{
+    background-color: #7a472a !important;
+}
+
+.navbar-brand{
+    color: #feeac9 !important;
+}
+.navbar-nav .nav-link{
+    display: inline-block;
+    font-size: 1.1rem;
+    margin-right: 1.7rem;
+    color: #feeac9 !important;
+}
+.navbar-nav{
+    text-align: center;
+}
+.navbar .nav-link:hover{
+    color: white !important;
+}
+.navbar-toggler{
+    border-color:#36281d !important;
+    background-color: #feeac9 !important;   /* color de fondo */
+    border: 1px solid #36281d !important;   /* grosor y color del borde */
+}
+.navbar-toggler:hover{
+    background-color: #b17240;
+}
+@media (max-width:768px){
+.navbar-brand{
+    text-align:center;
+}
+}
+.logo{
+    width: 350px;
+    height: auto;
+}
+.especialidad-card{
+    border-radius:12px;
+    box-shadow:0 10px 25px rgba(0,0,0,0.15);
+    transition:transform 0.3s, box-shadow 0.3s;
+    padding:10px;
+}
+
+.especialidad-card:hover{
+    transform:translateY(-8px);
+    box-shadow:0 15px 35px rgba(0,0,0,0.25);
+}
+
+.icono{
+    font-size:3rem;
+    color:#7a472a;
+    margin-bottom:10px;
+}
+
+.card-title{
+    font-weight:bold;
+}
+@media (max-width: 768px){
+    .logo{
+        width: 250px;
+    }
+}
+@media (max-width: 480px){
+    .logo{
+        width: 150px;
+    }
+}

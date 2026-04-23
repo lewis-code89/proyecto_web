@@ -1,0 +1,67 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #feeac9;
+}
+.flex-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.tarjeta{
+    background: #feeac9;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(122, 71, 42, 0.8);
+    max-width: 34.3rem;
+    width: 90%;
+    padding: 25px;
+}
+.logo{
+    width: 300px;
+    height: auto;
+    margin: 0;
+    padding: 0 0 20px 0;
+}
+.tarjeta h2{
+    margin: 10px 0;
+    font-size: 1.2rem;
+    color: #36281d;
+}
+.boton{
+    display: inline-block;
+    margin-top: 18px;
+    padding: 12px 25px;
+    background: #7a472a;
+    color:#feeac9;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: 0.8s;
+}
+.boton:hover{
+    background-color: #af6d3b;
+    cursor: pointer;
+}
+.triangulo1{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 28vw;
+    height: 28vw;
+    background: #b17240;
+    clip-path: polygon(0 0, 0 100%, 100% 100%);
+}
+.triangulo2{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 28vw;
+    height: 28vw;
+    background: #b17240;
+    clip-path: polygon(0 0, 100% 0, 100% 100%);
+}
